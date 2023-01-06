@@ -1,6 +1,6 @@
 package ZOO;
 
-public class FileWorker implements Weitable {
+public class FileHandler implements Weitable {
     @Override
     public void save(){
         System.out.println("Сохранили");
