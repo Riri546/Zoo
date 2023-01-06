@@ -2,7 +2,7 @@ package ZOO;
 
 public abstract class Animal implements Speakable {
     // public abstract void speak();
-    private FileHandler fileHandler;
+    private Weitable fileHandler;
 
     public void save(){
         if(fileHandler != null){
@@ -10,7 +10,7 @@ public abstract class Animal implements Speakable {
         }
     }
 
-    public void setFileHandler(FileHandler fileHandler) {
+    public void setFileHandler(Weitable fileHandler) {
         this.fileHandler = fileHandler;
     }
 
