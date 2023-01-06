@@ -1,5 +1,5 @@
 package ZOO;
 
-public class Speakable {
+public interface Speakable {
     
 }
