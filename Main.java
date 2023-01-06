@@ -14,6 +14,7 @@ public class Main {
         speakables.add(radio);
         speakAll(speakables);
     }
+    
     public static void speakAll(List<Speakable> speakables){
        for(Speakable speakable: speakables){
         speakable.speak();
