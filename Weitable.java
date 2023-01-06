@@ -1,5 +1,7 @@
 package ZOO;
 
-public class Weitable {
+public interface Weitable {
+    void save();
+    Object read();
     
 }
