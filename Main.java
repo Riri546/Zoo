@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Cat cat1 = new Cat();
         Dog dog1 = new Dog();
+        Radio radio = new Radio();
         List<Animal> animals = new ArrayList<>();
         animals.add(cat1);
         animals.add(dog1);
