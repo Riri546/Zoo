@@ -10,5 +10,7 @@ public class FileHandler implements Weitable {
     public Object read(){
         return null;
     }
+
+    public void test(){}
     
 }

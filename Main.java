@@ -10,7 +10,7 @@ public class Main {
         Radio radio = new Radio();
 
         FileHandler fileHandler = new FileHandler();
-        cat1.setFileHandler(fileHandler);
+        cat1.setWriteble(fileHandler);
         cat1.save();
 
         List<Speakable> speakables = new ArrayList<>();
